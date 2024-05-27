@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+}
+
+.custom-input {
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    padding: 10px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.custom-input:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar h1 {
+    margin: 0 auto; 
+    text-align: center;
+    width: 100%;
+    font-size: 1.5rem; 
+}
+
+.navbar-toggler {
+    position: absolute;
+    right: 10px; 
+}
